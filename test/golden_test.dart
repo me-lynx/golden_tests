@@ -3,6 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:golden_tests/main.dart';
 import 'package:golden_toolkit/golden_toolkit.dart';
 
+// flutter test --update-goldens
 void main() {
   group('Counter', () {
     testWidgets('O valor incial é 0', (tester) async {
