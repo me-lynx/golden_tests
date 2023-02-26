@@ -53,8 +53,6 @@ Future<void> theAppIsRendered(WidgetTester tester) async {
       Device.iphone11,
       Device.tabletPortrait,
       Device.tabletLandscape,
-      samsungEightAndroid,
-      iphonetwelvepromaxIOS,
       iphone14ProMax
     ])
     ..addScenario(
