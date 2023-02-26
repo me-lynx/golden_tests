@@ -3,6 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:golden_tests/main.dart';
 import 'package:golden_toolkit/golden_toolkit.dart';
 
+import 'custom_devices.dart';
+
 // flutter test --update-goldens
 void main() {
   group('Counter', () {
@@ -51,6 +53,9 @@ Future<void> theAppIsRendered(WidgetTester tester) async {
       Device.iphone11,
       Device.tabletPortrait,
       Device.tabletLandscape,
+      samsungEightAndroid,
+      iphonetwelvepromaxIOS,
+      iphone14ProMax
     ])
     ..addScenario(
       name: 'Testes',
